@@ -15,3 +15,13 @@ mix.js('resources/js/app.js', 'public/js/app.js')
     .postCss('resources/css/app.css', 'public/css/app.css', [
         //
     ]);
+
+mix.styles([
+    'resources/themes/backend/assets/css/dashlite.css',
+    'resources/themes/backend/assets/css/theme.css'
+], 'public/backend/css/app.css');
+
+mix.scripts([
+    'resources/themes/backend/assets/js/bundle.js',
+    'resources/themes/backend/assets/js/scripts.js'
+], 'public/backend/js/app.js');
