@@ -25,3 +25,9 @@ mix.scripts([
     'resources/themes/backend/assets/js/bundle.js',
     'resources/themes/backend/assets/js/scripts.js'
 ], 'public/backend/js/app.js');
+
+mix.copy('resources/themes/backend/assets/images',
+    'public/backend/images');
+
+mix.copyDirectory('resources/themes/backend/assets/fonts',
+    'public/backend/assets/fonts');

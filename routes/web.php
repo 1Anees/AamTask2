@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::view("admin", "admin");
+Route::view("app", "backend/layouts/app");
