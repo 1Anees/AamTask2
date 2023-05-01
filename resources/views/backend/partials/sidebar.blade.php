@@ -23,23 +23,23 @@
                     </li>
                     <!-- .nk-menu-item -->
                     <li class="nk-menu-item">
-                        <a href="html/index.html" class="nk-menu-link">
+                        <a href="{{ route('blogs.create') }}" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
-                            <span class="nk-menu-text">Default Dashboard</span>
+                            <span class="nk-menu-text">Create a Blog</span>
                         </a>
                     </li>
                     <!-- .nk-menu-item -->
                     <li class="nk-menu-item">
-                        <a href="html/index-crypto.html" class="nk-menu-link">
+                        <a href="{{ route('blogs.index') }}" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-bitcoin-cash"></em></span>
-                            <span class="nk-menu-text">Crypto Dashboard</span>
+                            <span class="nk-menu-text">Blogs</span>
                         </a>
                     </li>
                     <!-- .nk-menu-item -->
                     <li class="nk-menu-item">
-                        <a href="html/index-analytics.html" class="nk-menu-link">
+                        <a href="/" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-growth"></em></span>
-                            <span class="nk-menu-text">Analytics Dashboard</span>
+                            <span class="nk-menu-text">Posts</span>
                         </a>
                     </li>
                     <!-- .nk-menu-item -->

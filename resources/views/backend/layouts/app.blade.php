@@ -27,9 +27,10 @@
                 <!-- main header @s -->
                @include('backend.partials.header')
                 <!-- content @s -->
-              @include('backend.partials.content')
+                @yield('content')
                 <!-- content @e -->
                 @include('backend.partials.footer')
+            
             </div>
             <!-- wrap @e -->
         </div>

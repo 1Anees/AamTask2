@@ -14,7 +14,13 @@
             <!-- .nk-header-news -->
             <div class="nk-header-tools">
                 <ul class="nk-quick-nav">
-                   
+
+                    @guest
+                    <li><a href="/register"><span>Register</span></a></li>
+
+                    <li><a href="/login"><span>Login!</span></a></li>
+@endguest
+
                    @include('backend.partials.user-dropdown')
                     <!-- .dropdown -->
                     
